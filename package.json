@@ -1,0 +1,24 @@
+{
+  "name": "override-links",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo example/index.js:bundle.js --dir tests --live"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethvincent/override-links.git"
+  },
+  "author": "sethvincent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sethvincent/override-links/issues"
+  },
+  "homepage": "https://github.com/sethvincent/override-links#readme",
+  "dependencies": {
+    "dom-event": "0.0.5",
+    "findup-element": "0.0.0",
+    "global": "^4.3.0"
+  }
+}
